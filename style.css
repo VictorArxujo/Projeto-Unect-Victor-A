@@ -1,0 +1,387 @@
+@media only screen and (max-width: 768px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /* Parte do NAVBAR - inicio */
+  .logo {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0;
+  }
+  .logo_text {
+    margin-left: 30px;
+    width: 138px;
+    font-size: 15px;
+    text-align: end;
+  }
+  .logo {
+    gap: 25px;
+  }
+  .logo img {
+    margin: auto;
+    padding-top: 1px;
+    margin-left: 45px;
+    width: 25px;
+    height: 31.9px;
+  }
+
+  .right {
+    display: none;
+  }
+  #img-menu-mobile {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-right: 45px;
+  }
+  .navbar a {
+    display: none;
+  }
+  .subtítulo-header {
+    display: none;
+  }
+
+  /* Parte do NavBar - fim */
+
+  /* parte do header - inicio */
+  .header img {
+    height: auto;
+    width: 449px;
+  }
+  .header {
+    width: 100%;
+    height: auto;
+  }
+  .header img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+  .título-header {
+    padding: 0%;
+    font-size: 28px;
+    width: 342px;
+    height: 96px;
+    margin-top: 32px;
+    margin-left: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .btn-header {
+    margin-bottom: 37.34px;
+    margin-left: 24px;
+    margin-top: 0;
+    height: 24px;
+    width: 169;
+  }
+  /* Parte do header - fim */
+  /* Parte do sobre nós - inicio*/
+  .about {
+    height: 586px;
+  }
+
+  .container-about {
+    margin-right: 40px;
+    width: 340px;
+    height: auto;
+    margin-left: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .about-image {
+    display: none;
+  }
+  .button-layout {
+    margin: 0%;
+    width: 194px;
+    height: 44px;
+    font-size: 14px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .title-about {
+    padding: 0%;
+    width: 159px;
+    font-size: 24px;
+  }
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 26px;
+    height: 490px;
+  }
+  .about-paragraph {
+    font-size: 18px;
+    width: 339px;
+    height: 182px;
+    left: 25px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  /* Parte do sobre nós - fim*/
+  /* Parte da cafeteria - inicio */
+
+  .título-carrossel {
+    padding-bottom: 5%;
+  }
+
+  #img2 {
+    display: none;
+  }
+  #img3 {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 217px;
+    height: 287px;
+    margin-left: 37px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0;
+    padding: 9%;
+  }
+
+  .carrossel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 536px;
+  }
+  .título-carrossel {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 4%;
+  }
+
+  #carousel-image1 {
+    width: 196.87px;
+    height: 170.77px;
+    object-fit: cover;
+    border-radius: 8px;
+    left: 15px;
+    top: 15px;
+  }
+  .gallery {
+    justify-content: center;
+    height: 287px;
+  }
+  p#carousel-title1.title {
+    width: 197px;
+    height: 27px;
+  }
+  p#carousel-description1 {
+    font-size: 14px;
+    height: 50px;
+    width: 197px;
+  }
+  .gallery-wrapper {
+    border-radius: 8px 8px 8px 8px;
+  }
+  #imagem {
+    height: 257px;
+  }
+
+  .título-carrossel h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #b2784a;
+    bottom: -5px;
+    left: 0;
+    border-radius: 5px;
+  }
+  /* Parte da Cafeteria - fim  */
+  /* Parte do  Contact Us - Inicio */
+
+  .carrossel-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-contact {
+    display: none;
+  }
+
+  .contact-us-props {
+    padding-top: 62px;
+    height: 542px;
+    padding-bottom: 62px;
+  }
+
+  .form-contact {
+    justify-content: start;
+    align-items: center;
+    padding-left: 0%;
+    padding-top: 32px;
+    width: 10vh;
+  }
+  .form-props {
+    width: 341px;
+    height: 542px;
+    top: 1619px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 280.99px;
+    height: 477px;
+  }
+  .carrossel-about {
+    align-items: start;
+    justify-content: start;
+    width: 341px;
+    height: 542px;
+    top: 1619px;
+    left: 24px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+
+  .title-about.title-contact {
+    font-size: 24px;
+    width: 274px;
+    height: 42px;
+    top: 1545px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .input-form {
+    width: 280px;
+    height: 48px;
+    padding-left: 0%;
+    left: 48px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 8px 8px 8px 8px;
+  }
+  .button-layout.about {
+    padding: 0px;
+    margin-left: 0px;
+    width: 224px;
+    font-size: 14px;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 32px;
+  }
+  .input-form.message {
+    height: 160px;
+    width: 280px;
+
+    height: 160px;
+    top: 1894px;
+    left: 47px;
+    gap: 0px;
+    border-radius: 8px 8px 8px 8px;
+  }
+  /* Parte do Contact Us - fim */
+  /* Parte do Footer - Inicio */
+
+  .footer-content {
+    flex-direction: column;
+    align-items: start;
+    margin-left: 24px;
+  }
+  .footer-text {
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+  }
+
+  .find-us-props {
+    display: block;
+    display: flex;
+  }
+  /* Parte do Footer - Fim */
+
+  /* Parte do menu - Mobile - Inicio */
+
+  .menu-mobile {
+    display: none;
+    position: absolute;
+    background-color: #f5f3ed;
+    z-index: 2;
+    width: 100vw;
+    height: 496px;
+    top: 0%;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .div-menu-mobile-header {
+    background-color: #57290b;
+    display: flex;
+    height: 64px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .imagem-navbar-menu {
+    padding-left: 45px;
+    padding-right: 45px;
+    width: 25px;
+    height: 31.9px;
+    top: 16px;
+    left: 45px;
+    opacity: 0px;
+  }
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 348px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+  }
+  .button-menu {
+    width: 342px;
+    height: 78px;
+    background-color: rgb(255, 255, 255);
+    justify-content: stretch;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .overlay {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(23, 23, 23, 0.6);
+  }
+  /* Parte do menu - Mobile - Fim */
+  .text-home {
+    margin: 18px 18px 18px;
+  }
+}
