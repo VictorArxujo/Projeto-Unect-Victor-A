@@ -3,24 +3,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const images = [
     {
-      src: "/Projeto/imagens/Brigadeiro1.png",
+      src: "Imagens/Brigadeiro1.png",
       title: "Brigadeiro de capuccino",
       description:
         "O brigadeiro de cappuccino é uma das guloseimas que enfeitam o balcão da doceria...",
     },
     {
-      src: "/Projeto/imagens/chocake.png",
+      src: "Imagens/chocake.png",
       title: "Bolo de chocolate",
       description:
         "O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteira...",
     },
     {
-      src: "/Projeto/imagens/Maskgroup.png",
+      src: "Imagens/Maskgroup.png",
       title: "Pão de Mel",
       description: "O pão de mel é um dos doces mais tradicionais que temos...",
     },
     {
-      src: "/Projeto/imagens/sorvete.png.png",
+      src: "Imagens/sorvete.png.png",
       title: "Sorvete de Café",
       description:
         "O sorvete em versão de café pode ser aproveitado sozinho ou com um pedacinho de bolo no fim...",
